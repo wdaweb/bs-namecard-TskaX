@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>Business Card</title>
+    <style>
+        .fs-7 {
+            font-size: calc(0.7rem + 0.3vw);
+        }
+
+        .h-100vh {
+            height: 100vh;
+        }
+
+        .transform-rotate-180 {
+            transform: rotate(180deg);
+        }
+
+        .w-15 {
+            width: 15%;
+        }
+
+        .start-5 {
+            left: -5%;
+        }
+
+        .bottom-5 {
+            bottom: -5%;
+        }
+
+        .end-5 {
+            right: -5%;
+        }
+
+        .top-5 {
+            top: -5%
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container pt-md-4 ">
+        <div class="row flex-column shadow ms-1 me-1 flex-md-row mt-md-5 ">
+            <div class="col bg-black p-4 position-relative">
+                <img src="./triangle.png"
+                    class="d-none d-md-block position-absolute transform-rotate-180 start-5 bottom-5 w-25">
+                <img src="./logo.png" class="w-100">
+            </div>
+            <div class="col position-relative">
+                <img src="./triangle.png" class="d-none d-md-block position-absolute end-5 top-5 w-25">
+                <div class="container h-100">
+                    <div class="row flex-column pt-4 pt-sm-0 h-100 justify-content-md-center">
+                        <div
+                            class="col mt-5 mb-5 pt-5 pt-sm-0 mt-md-5 mb-md-0 d-md-flex flex-md-column justify-content-center ps-md-5">
+                            <h6 class="m-0">Front-End Designer</h6>
+                            <h1 class="m-0 fs">Alan Chen</h1>
+                            <h2 class="m-0">泰山職訓局</h2>
+                        </div>
+                        <div class="col mb-5 fs-7 pb-5 mb-md-0 pb-md-0 ps-md-5">
+                            <p class="m-0">住址：新北市泰山區貴子里致遠新村55之1號</p>
+                            <p class="m-0">電話：02-00000000</p>
+                            <p class="m-0">E-mail：alanchen@omg.com</p>
+                            <p class="m-0">網址：http://www.alanchen.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
